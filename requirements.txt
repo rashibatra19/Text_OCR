@@ -1,0 +1,6 @@
+streamlit
+tiktoken
+verovio
+transformers
+torch
+pillow
