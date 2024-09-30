@@ -92,7 +92,8 @@ To demonstrate the full functionality of the OCR application and the fine-tuned 
 
 **output_text**:
 
-![WhatsApp Image 2024-09-30 at 19 33 14_73f2b5eb](https://github.com/user-attachments/assets/ae2b7888-267c-4345-a602-7313ba645ced)
+![WhatsApp Image 2024-09-30 at 20 31 39_cb83d515](https://github.com/user-attachments/assets/ea490051-a262-405e-b59c-b74390d8ba38)
+
 
 3.**Requirements**:
   The project requires the following Python packages, which are listed in requirements.txt:
