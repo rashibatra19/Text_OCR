@@ -42,12 +42,7 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
       streamlit run app.py
       ```
       Access the application via the URL provided in the terminal (usually http://localhost:8501).
-  **First image:**
- ![img 1 ](https://github.com/user-attachments/assets/1c102b5e-4b8c-4dac-b999-2a708825fea1)
- **Second image:**
-![img 2](https://github.com/user-attachments/assets/6cb1ba67-0521-4e14-ae89-28464b6c7e3e)
-**Third image:**
-![img 3](https://github.com/user-attachments/assets/3a76ba0c-440f-4734-ae81-d87bd1e15f81)
+  
 
 4.**Keyword Search**: Once text is extracted, users can enter a keyword, and matching sections will be highlighted.
 
@@ -82,11 +77,17 @@ To demonstrate the full functionality of the OCR application and the fine-tuned 
     **Step-3:Search a keyword and get the highlighted output**
 ![img 3](https://github.com/user-attachments/assets/3a76ba0c-440f-4734-ae81-d87bd1e15f81)
 
+
+
 **Fine-tuned model**:
+
+
 **input_image**:
+
 ![2 1](https://github.com/user-attachments/assets/76951b89-bf67-4bf4-bdab-71d4ef6a5763)
 
 **output_text**:
+
 ![WhatsApp Image 2024-09-30 at 19 33 14_73f2b5eb](https://github.com/user-attachments/assets/ae2b7888-267c-4345-a602-7313ba645ced)
 
 3.**Requirements**:
