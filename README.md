@@ -5,6 +5,8 @@ This repository contains an OCR application that performs Optical Character Reco
 
 Although the application was fully developed and fine-tuned, due to hardware (GPU) limitations, the fine-tuned model could not be deployed to Streamlit Cloud or Hugging Face Spaces. However, the complete code, model fine-tuning steps, and screenshots showcasing the application's functionality and performance are provided in this repository.
 
+**Implementation of this application can be seen through this link as due to lack of GPU POWER was unable to deploy on the streamlit cloud/hugging spaces but entire was working locally**:
+Link: https://drive.google.com/file/d/12W3-qR-EieOcgLuVfqKIeeJRh88a1EB-/view?usp=sharing
 ## Components
 
 ### 1. OCR Application (`app.py`)
