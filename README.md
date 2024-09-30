@@ -40,7 +40,10 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
       streamlit run app.py
       ```
       Access the application via the URL provided in the terminal (usually http://localhost:8501).
-  
+  ![img 2](https://github.com/user-attachments/assets/8c650a74-c21c-4fcd-b925-17d04fd6fc52)
+![img 2](https://github.com/user-attachments/assets/6cb1ba67-0521-4e14-ae89-28464b6c7e3e)
+![img 2](https://github.com/user-attachments/assets/a4b3d1fc-3da9-4c90-8ecd-9c8ec3637e10)
+
 
 2. **Model Fine-Tuning (final.ipynb)**:
     The final.ipynb notebook contains code for fine-tuning the GOT OCR model on a custom dataset. Fine-tuning allows the model to adapt better to specific types of     text or fonts present in the dataset.
