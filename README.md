@@ -25,7 +25,7 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
 #### Running the Application
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/rashibatra19/Text_OCR.git
    cd your-repo-name
 2.**Install Dependencies**:
   Create a virtual environment (optional but recommended) and install the required packages:
