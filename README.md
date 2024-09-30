@@ -47,8 +47,10 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
 4.**Keyword Search**: Once text is extracted, users can enter a keyword, and matching sections will be highlighted.
 
 ### **2.Model Fine-Tuning (final.ipynb)**:
-    The final.ipynb notebook contains code for fine-tuning the GOT OCR model using a custom Hindi dataset. Despite the model achieving 81% accuracy on Hindi text extraction, deployment was constrained due to the lack of GPU support on platforms like Streamlit Cloud or Hugging Face Spaces.
+The final.ipynb notebook contains code for fine-tuning the GOT OCR model using a custom Hindi dataset. 
+Despite the model achieving 81% accuracy on Hindi text extraction, deployment was constrained due to the lack of GPU support on platforms like Streamlit Cloud or Hugging Face Spaces.
 
+Dataset Used:https://www.kaggle.com/datasets/prathmeshzade/hindi-ocr-synthetic-line-image-text-pair
 - **Fine-Tuning Process**
     - **Dataset Preparation**: The notebook guides you through loading and preparing a custom Hindi dataset for OCR tasks.
     - **Model Fine-Tuning**: The GOT OCR model is fine-tuned on the Hindi dataset to enhance its performance on Hindi text recognition.
