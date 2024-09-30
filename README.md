@@ -88,11 +88,12 @@ To demonstrate the full functionality of the OCR application and the fine-tuned 
 
 **input_image**:
 
-![2 1](https://github.com/user-attachments/assets/76951b89-bf67-4bf4-bdab-71d4ef6a5763)
+![9 1](https://github.com/user-attachments/assets/3b784ef2-7d43-41d9-9157-96c564ac5551)
 
 **output_text**:
 
-![WhatsApp Image 2024-09-30 at 20 31 39_cb83d515](https://github.com/user-attachments/assets/ea490051-a262-405e-b59c-b74390d8ba38)
+![WhatsApp Image 2024-09-30 at 20 48 07_10bc4be4](https://github.com/user-attachments/assets/da976b8f-b88d-45fe-9167-dee6dff105ad)
+
 
 
 3.**Requirements**:
