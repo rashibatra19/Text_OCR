@@ -1,7 +1,9 @@
 # OCR Application and GOT Model Fine-Tuning
 
 ## Overview
-This repository contains an OCR application that performs Optical Character Recognition (OCR) on images containing text in both Hindi and English. Additionally, it includes a Jupyter Notebook for fine-tuning the GOT OCR model using custom datasets.
+This repository contains an OCR application that performs Optical Character Recognition (OCR) on images containing text in both Hindi and English. It also includes a Jupyter Notebook for fine-tuning the GOT OCR model using a custom Hindi dataset, resulting in 81% accuracy for Hindi text extraction.
+
+Although the application was fully developed and fine-tuned, due to hardware (GPU) limitations, the fine-tuned model could not be deployed to Streamlit Cloud or Hugging Face Spaces. However, the complete code, model fine-tuning steps, and screenshots showcasing the application's functionality and performance are provided in this repository.
 
 ## Components
 
@@ -47,12 +49,45 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
 **Third image:**
 ![img 3](https://github.com/user-attachments/assets/3a76ba0c-440f-4734-ae81-d87bd1e15f81)
 
-2. **Model Fine-Tuning (final.ipynb)**:
-    The final.ipynb notebook contains code for fine-tuning the GOT OCR model on a custom dataset. Fine-tuning allows the model to adapt better to specific types of     text or fonts present in the dataset.
+4.**Keyword Search**: Once text is extracted, users can enter a keyword, and matching sections will be highlighted.
 
-- Dataset Preparation: The notebook guides you through loading and preparing a dataset suitable for OCR tasks.
-- Model Fine-Tuning: Fine-tunes the pre-trained GOT model using the provided dataset, adjusting the model's weights based on new data.
-- Evaluation: Includes steps for evaluating the model's performance on a validation dataset.
+### **2.Model Fine-Tuning (final.ipynb)**:
+    The final.ipynb notebook contains code for fine-tuning the GOT OCR model using a custom Hindi dataset. Despite the model achieving 81% accuracy on Hindi text extraction, deployment was constrained due to the lack of GPU support on platforms like Streamlit Cloud or Hugging Face Spaces.
+
+- **Fine-Tuning Process**
+    - **Dataset Preparation**: The notebook guides you through loading and preparing a custom Hindi dataset for OCR tasks.
+    - **Model Fine-Tuning**: The GOT OCR model is fine-tuned on the Hindi dataset to enhance its performance on Hindi text recognition.
+    - **Evaluation**: The fine-tuned model achieved an 81% accuracy on extracting Hindi text from images.
+      
+### 3. Known Issue: Deployment Constraints
+Despite the successful completion of both the English and Hindi OCR models, the fine-tuned Hindi GOT OCR model could not be deployed online due to the hardware limitations (lack of GPU on the Streamlit Cloud and Hugging Face Spaces). The model requires GPU support for loading and real-time inference, which was not available on these platforms).
+
+### Alternative: Screenshots for Demonstration
+To demonstrate the full functionality of the OCR application and the fine-tuned model's performance, I have attached screenshots showing the:
+
+  - Successful extraction of Hindi and English text from images.
+  - Results of the keyword search feature on the extracted text.
+  - Performance metrics for the fine-tuned Hindi OCR model.
+  - Screenshots
+    
+**The screenshots include:**
+  - Image upload interface.
+  - Text extraction results (both Hindi and English).
+  - Keyword search functionality.
+  - Model fine-tuning results and performance metrics (81% accuracy on Hindi).
+    **Step-1:Upload the image :**
+ ![img 1 ](https://github.com/user-attachments/assets/1c102b5e-4b8c-4dac-b999-2a708825fea1)
+    **Step-2:Click on Extract Text to get the extracted text**
+![img 2](https://github.com/user-attachments/assets/6cb1ba67-0521-4e14-ae89-28464b6c7e3e)
+    **Step-3:Search a keyword and get the highlighted output**
+![img 3](https://github.com/user-attachments/assets/3a76ba0c-440f-4734-ae81-d87bd1e15f81)
+
+**Fine-tuned model**:
+**input_image**:
+![2 1](https://github.com/user-attachments/assets/76951b89-bf67-4bf4-bdab-71d4ef6a5763)
+
+**output_text**:
+![WhatsApp Image 2024-09-30 at 19 33 14_73f2b5eb](https://github.com/user-attachments/assets/ae2b7888-267c-4345-a602-7313ba645ced)
 
 3.**Requirements**:
   The project requires the following Python packages, which are listed in requirements.txt:
@@ -62,3 +97,8 @@ The OCR application is built using Streamlit and utilizes the Hugging Face Trans
     torch
     Pillow
 ```
+**Future Work**
+Once suitable GPU resources are available, the fine-tuned model can be deployed online to allow real-time inference for Hindi and English text extraction. This will enable full functionality of the web application.
+
+**Conclusion**:
+This project demonstrates my proficiency in OCR, deep learning model fine-tuning, and web application development. Despite deployment limitations, the complete functionality of the application can be reviewed via the attached screenshots and the well-documented codebase.
